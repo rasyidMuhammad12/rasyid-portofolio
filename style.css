@@ -1,0 +1,467 @@
+body {
+  font-family: "poppins";
+  background-color: rgb(25, 25, 26);
+  align-items: center;
+}
+section {
+  margin-top: 5%;
+  text-align: center;
+  align-items: center;
+}
+section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+section h4 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: #fff;
+  background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+  font-family: "Poppins", sans-serif;
+}
+@-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+
+section button {
+  padding: 5px 20px 5px 20px;
+  background-color: rgb(25, 25, 26);
+  border: none;
+  color: white;
+  outline: 1px solid;
+  border-radius: 50px;
+  margin-top: 5%;
+  font-size: 15px;
+}
+.ket ul {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  color: rgb(110, 110, 110);
+}
+.ket ul li {
+  list-style-type: none;
+  padding-left: 30px;
+  font-size: 13px;
+  display: flex;
+  text-align: center;
+}
+.ket i {
+  color: rgb(110, 110, 110);
+  display: flex;
+  font-size: 15px;
+  padding: 1px 3px 1px 3px;
+}
+.about {
+  color: white;
+  text-align: left;
+  font-weight: 600;
+  display: flex;
+  margin-top: 6%;
+  margin-left: 15%;
+}
+.about .content {
+  width: 800px;
+  height: fit-content;
+  background-color: rgb(33, 33, 33);
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+  outline: 1px solid rgb(48, 48, 48);
+}
+.about .content p {
+  font-size: 12px;
+  font-weight: 200;
+}
+.about .content p span {
+  background-color: #2d79f3;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: "Caveat", cursive;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.project {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.galery {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.card {
+  width: 250px;
+  margin-right: 0;
+  position: relative;
+  left: 95px;
+}
+.experience {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  margin-top: 6%;
+  margin-left: 15%;
+}
+.experience .experience-education {
+  width: 800px;
+  height: fit-content;
+  background-color: rgb(33, 33, 33);
+  padding: 10px;
+  margin-left: 50px;
+  border-radius: 10px;
+  outline: 1px solid rgb(48, 48, 48);
+}
+.experience-education ul {
+  font-weight: 500;
+  text-align: left;
+  font-size: 14;
+}
+.experience-education ul li {
+  text-align: left;
+  font-weight: 300;
+  font-size: 13px;
+}
+.experience-work {
+  width: 800px;
+  height: fit-content;
+  background-color: rgb(33, 33, 33);
+  padding: 10px;
+  margin-left: 255px;
+  margin-top: 20px;
+  position: relative;
+  left: 100px;
+  border-radius: 10px;
+  outline: 1px solid rgb(48, 48, 48);
+  align-items: center;
+}
+.experience-work ul {
+  font-weight: 500;
+  text-align: left;
+  font-size: 14;
+  color: white;
+}
+.experience-work ul li {
+  text-align: left;
+  font-weight: 500;
+  font-size: 13px;
+  color: white;
+}
+.experience-work ul li p {
+  color: #868686;
+  font-weight: 400;
+}
+.skill {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  margin-top: 6%;
+  margin-left: 15%;
+}
+.skill .skill-content {
+  width: 800px;
+  height: fit-content;
+  background-color: rgb(33, 33, 33);
+  padding: 10px;
+  margin-left: 100px;
+  border-radius: 10px;
+  text-align: left;
+  outline: 1px solid rgb(48, 48, 48);
+}
+.skill .skill-content ul li {
+  text-align: left;
+  font-weight: 300;
+  font-size: 13px;
+  padding-bottom: 3px;
+}
+.container {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 50px;
+  height: 17px;
+}
+.skills {
+  text-align: right;
+  height: fit-content;
+  font-size: 13px;
+  position: relative;
+  
+  color: white;
+}
+
+.ui {
+  width: 80%;
+  background-color: #b31313;
+  padding-bottom: 17px;
+  padding-right: 2%;
+  margin-left: -12px;
+  border-radius: 50px;
+  height: 15px;
+}
+.makan {
+  width: 70%;
+  background-color: #df5e41;
+  padding-bottom: 17px;
+  padding-right: 2%;
+  margin-left: -12px;
+  border-radius: 50px;
+  height: 15px;
+}
+.turu{
+  width: 70%;
+  background-color: #2d66bc;
+  padding-bottom: 17px;
+  padding-right: 2%;
+  margin-left: -12px;
+  border-radius: 50px;
+  height: 15px;
+}
+.makanlagi{
+  width: 50%;
+  background-color: #e2b030;
+  padding-bottom: 17px;
+  padding-right: 2%;
+  margin-left: -12px;
+  border-radius: 50px;
+  height: 15px;
+}
+.contact {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  margin-top: 6%;
+  margin-left: 15%;
+}
+.contact .contact-content {
+  width: 800px;
+  height: fit-content;
+  background-color: rgb(33, 33, 33);
+  padding: 10px;
+  margin-left: 70px;
+  border-radius: 10px;
+  text-align: left;
+  outline: 1px solid rgb(48, 48, 48);
+  color: white;
+  margin-bottom: 5%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+  padding: 30px;
+  width: 780px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+::placeholder {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.form button {
+  align-self: flex-end;
+}
+
+.flex-column > label {
+  color: rgb(30, 30, 30);
+  font-weight: 600;
+}
+
+.inputForm {
+  border: 1.5px solid #ecedec;
+  border-radius: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.input {
+  margin-left: 10px;
+  border-radius: 10px;
+  border: none;
+  width: 85%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.inputForm:focus-within {
+  border: 1.5px solid #2d79f3;
+}
+.inputForm svg {
+  color: white;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+.button {
+  text-decoration: none;
+  line-height: 1;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  color: #121212;
+  border: none;
+  cursor: pointer;
+}
+
+.button-decor {
+  position: absolute;
+  inset: 0;
+  background-color: var(--clr);
+  transform: translateX(-100%);
+  transition: transform 0.3s;
+  z-index: 0;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+}
+
+.button__icon {
+  width: 48px;
+  height: 40px;
+  background-color: var(--clr);
+  display: grid;
+  place-items: center;
+  border-radius: 50px;
+}
+
+.button__text {
+  display: inline-block;
+  transition: color 0.2s;
+  padding: 2px 1.5rem 2px;
+  padding-left: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px;
+}
+
+.button:hover .button__text {
+  color: #fff;
+}
+
+.button:hover .button-decor {
+  transform: translate(0);
+}
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: #242424;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 2%;
+  font-size: 12px;
+}
+footer .sosial-media .buttton {
+  padding-top: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  border-radius: 50%;
+  border: none;
+  background-color: #313131;
+  outline: 1px solid rgb(116, 116, 116);
+  color: white;
+  margin-left: 5px;
+}
+footer .sosial-media .buttton:hover {
+  background-color: #fff;
+  color: #242424;
+  outline: #121212;
+  transition: 0.5s;
+}
+footer small {
+  position: relative;
+  top: 13%;
+  font-size: 10px;
+  color: #707070;
+}
+footer .sosial-media i {
+  font-size: 20px;
+  text-align: center;
+}
